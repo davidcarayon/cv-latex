@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.5.10)  24 FEB 2018 23:02
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.5.10)  18 JUL 2018 18:35
  restricted system commands enabled.
 **section_experience_short.tex
 (./section_experience_short.tex
@@ -68,13 +68,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25                     {R
+l.24                     {R
                          , SQL, Analyse de données, Appui politique publiqu...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.26   \emptySeparator
+l.25   \emptySeparator
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -83,7 +83,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.27   \experience
+l.26   \experience
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -92,7 +92,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--30
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--29
 []R,
  []
 
@@ -104,7 +104,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.37                     {R
-                         , SQL, Analyse de données, Formation, Invertébré...
+                         , SQL, Analyse de données, Animation, Invertébré...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -138,13 +138,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49                     {R
-                         , Analyse de données, EDF, Poissons}
+l.48                     {R
+                         , QGIS,  Analyse de données, EDF, Poissons}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.50   \emptySeparator
+l.49   \emptySeparator
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -153,7 +153,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 49--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--50
 []R,
  []
 
@@ -164,7 +164,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{experiences}
+l.51 \end{experiences}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -180,11 +180,11 @@ or  <return>  to continue without it.
 
 Here is how much of LuaTeX's memory you used:
  11 strings out of 495119
- 100000,89155 words of node,token memory allocated 12523 words of node memory still in use:
-   60 hlist, 16 local_par, 1 dir, 381 glue, 47 penalty, 1475 glyph, 32 glue_spec
+ 100000,89155 words of node,token memory allocated 10462 words of node memory still in use:
+   52 hlist, 14 local_par, 1 dir, 318 glue, 41 penalty, 1222 glyph, 32 glue_spec
  nodes
-   avail lists: 2:13,3:1,4:39,5:6,7:7,10:38
+   avail lists: 2:13,3:1,4:24,5:6,7:8,10:23
  3676 multiletter control sequences out of 65536+600000
  14 fonts using 591559 bytes
- 6i,1n,6p,337b,76s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 6i,1n,6p,221b,76s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!
