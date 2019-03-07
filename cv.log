@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.5.10)  7 MAR 2019 19:25
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.5.10)  7 MAR 2019 19:31
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -366,7 +366,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.201 seconds)
+luaotfload | main : initialization completed in 0.151 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1440,10 +1440,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
 Here is how much of LuaTeX's memory you used:
  35143 strings out of 495119
  100000,794899 words of node,token memory allocated
- 1568 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 97 glue, 1 penalty, 186 attribute, 60 glue_spec, 47
+ 1544 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 95 glue, 1 penalty, 182 attribute, 60 glue_spec, 46
  attribute_list, 1 write nodes
-   avail lists: 1:2,2:6380,3:1483,4:127,5:699,6:4160,7:2080,8:153,9:706,10:11,11
+   avail lists: 1:2,2:6385,3:1483,4:127,5:699,6:4160,7:2082,8:153,9:706,10:11,11
 :477
  37656 multiletter control sequences out of 65536+600000
  48 fonts using 6803423 bytes
@@ -1451,7 +1451,7 @@ Here is how much of LuaTeX's memory you used:
 <./fonts/SourceSansPro-LightIt.otf></usr/local/texlive/2016/texmf-dist/fonts/ope
 ntype/public/fontawesome/FontAwesome.otf><./fonts/SourceSansPro-Regular.otf><./f
 onts/SourceSansPro-Semibold.otf><./fonts/SourceSansPro-Light.otf>
-Output written on cv.pdf (2 pages, 2644659 bytes).
+Output written on cv.pdf (2 pages, 2644615 bytes).
 
 PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
