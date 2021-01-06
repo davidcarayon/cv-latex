@@ -2,9 +2,9 @@
 
 This is a repository for my resumes made with LaTeX and RMarkdown :
 
-* My **Academic and data-driven** CV can be found [here](https://github.com/davidcarayon/cv-latex/Academic_CV_ENG/blob/master/Dcarayon_Academic_CV.pdf) 
+* My **Academic and data-driven** CV can be found [here](https://github.com/davidcarayon/cv-latex/blob/master/Academic_CV_ENG/Dcarayon_Academic_CV.pdf) 
 
-* My **Regular 1 Page** CV can be found [here](https://github.com/davidcarayon/cv-latex/Regular_CV_FR/blob/master/Dcarayon_CV.pdf) 
+* My **Regular 1 Page** CV can be found [here](https://github.com/davidcarayon/cv-latex/blob/master/Regular_CV_FR/Dcarayon_CV.pdf) 
 
 # Credits
 
