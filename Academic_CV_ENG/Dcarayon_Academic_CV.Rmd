@@ -1,0 +1,171 @@
+---
+name: David Carayon
+position: "Statistician"
+address: "INRAE Nouvelle-Aquitaine Bordeaux"
+phone: "+33664669060"
+www: github.com/davidcarayon
+email: "david.carayon@inrae.fr"
+twitter: "\\@david_carayon"
+github: davidcarayon
+linkedin: carayon-david
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I'm a statistician at the French National Research Institute for Agriculture, Food and the Environment (INRAE).
+
+My work mainly focuses on environmental evaluation. I build evaluation methods based on composite and statistically relevant indicators and also develop tools and software associated with these methods.
+
+My main programming langages/skills are R (advanced), LaTeX, SQL and Python."
+headcolor: "00a3a6"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(here)
+library(glue)
+```
+
+```{r get data, include=FALSE}
+## Education
+edu <- read_csv(here("Academic_CV_ENG","data", "education.csv"))
+
+## Jobs
+jobs <- read_csv(here::here("Academic_CV_ENG","data", "jobs.csv"))
+
+## Software
+software <- read_csv(here::here("Academic_CV_ENG","data", "software.csv")) %>% 
+  arrange(desc(when)) 
+
+## Dashboards
+dashboards <- read_csv(here::here("Academic_CV_ENG","data", "dashboards.csv")) %>% 
+  arrange(desc(when)) 
+
+## Teaching
+teaching <- read_csv(here::here("Academic_CV_ENG","data", "teaching.csv")) %>% 
+  arrange(desc(when))
+
+## Presentations
+presentations <- read_csv(here::here("Academic_CV_ENG","data", "presentations.csv")) %>% 
+  arrange(desc(when))
+
+publications <- read_csv(here::here("Academic_CV_ENG","data", "publications.csv")) %>% 
+  arrange(desc(when))
+
+## Training
+training <- read_csv(here::here("Academic_CV_ENG","data", "training.csv")) %>% 
+  arrange(desc(end))
+
+## Skills
+skills <- read_csv(here::here("Academic_CV_ENG","data", "skills.csv")) %>% 
+  group_by(category) %>% 
+  mutate(skill = paste(skill, collapse = ", ")) %>% 
+  ungroup %>% 
+  unique
+
+
+```
+
+
+
+# Education 
+
+```{r}
+detailed_entries(edu, 
+                 when = glue("{start_date}--{end_date}"),
+                 what = degree,
+                 where = loc,
+                 with = uni,
+                 why = details)
+
+```
+
+# Experience
+
+```{r research}
+jobs %>% 
+  detailed_entries(
+    what = role,
+    when = glue("{start_date}--{end_date}"),
+    with = company,
+    where = where,
+    why = details)
+```
+
+# Skills
+
+```{r}
+skills %>% 
+  detailed_entries(what = skill, with = category)
+```
+
+# Training
+
+```{r}
+training %>% 
+  detailed_entries(what = what, with = with, when = when, where = where, why = why)
+```
+
+# Selected Software
+
+**`R` Packages**
+
+```{r}
+software %>% 
+  detailed_entries(what = what, with = package, when = when, where = where, why = why)
+```
+
+**Interactive tools**
+
+```{r}
+dashboards %>% 
+  dplyr::mutate(with = what, 
+                what = why) %>% 
+  detailed_entries(what = what, with = with, when = when, where = where)
+```
+
+# Teaching
+
+```{r}
+teaching %>% 
+  detailed_entries(what = what, when = when, with = with, where = where, why = why)
+```
+
+\pagebreak
+
+# Publications
+
+**First author**
+
+```{r}
+publications %>% 
+  dplyr::filter(first_author) %>% 
+  detailed_entries(what = what,
+                   when = when,
+                   with = with,
+                   where = where)
+```
+
+**Non-first author**
+
+```{r}
+publications %>% 
+  dplyr::filter(!first_author) %>% 
+  detailed_entries(what = what,
+                   when = when,
+                   with = with,
+                   where = where)
+```
+
+# Presentations
+
+```{r}
+presentations %>% 
+  detailed_entries(what = what,
+                   when = when,
+                   with = with,
+                   where = where)
+```
+
+
+

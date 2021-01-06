@@ -1,0 +1,4 @@
+package,what,when,with,where,why, release
+IDEATools,An R package provinding tools to automate the processing of data collected as part of IDEA 4 diagnostics,2020,D Carayon,github.com/davidcarayon/IDEATools,Author and maintainer, GitHub
+IDGF,"An R package allowing the use of the FGDI index (Carayon et al., 2020)",2019,D Carayon,github.com/davidcarayon/IDGF,Author and maintainer, GitHub
+InraeThemes,An R package rovinding a variety of ggplot themes and Rmarkdown templates to INRAE staff,2020,D Carayon,github.com/davidcarayon/InraeThemes,Author and maintainer, GitHub
