@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.6)  3 JAN 2022 11:49
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.6)  3 JAN 2022 15:38
  restricted system commands enabled.
 **Dcarayon_CV.tex
 (./Dcarayon_CV.tex
@@ -1208,18 +1208,17 @@ Package rerunfilecheck Info: File `Dcarayon_CV.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  29790 strings out of 481365
  100000,1144653 words of node,token memory allocated
- 20524 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 17 glue, 3 kern, 1 penalty, 2669 glyph, 558 attribu
+ 20391 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 17 glue, 3 kern, 1 penalty, 2650 glyph, 558 attribu
 te, 60 glue_spec, 81 attribute_list, 2 write nodes
-   avail lists: 1:1,2:8075,3:1183,4:89,5:871,6:62,7:5504,8:11,9:701,10:12,11:518
-
+   avail lists: 1:1,2:8075,3:1183,4:89,5:863,6:62,7:5454,8:11,9:701,10:9,11:512
  45825 multiletter control sequences out of 65536+600000
  60 fonts using 9726227 bytes
  68i,12n,91p,1199b,919s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf
 ><./fonts/SourceSansPro-Regular.otf><./fonts/SourceSansPro-Semibold.otf><./fonts
 /SourceSansPro-Light.otf>
-Output written on Dcarayon_CV.pdf (1 page, 51456 bytes).
+Output written on Dcarayon_CV.pdf (1 page, 51435 bytes).
 
 PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
